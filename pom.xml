@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.hf</groupId>
-  <artifactId>ch8-jsp</artifactId>
+  <artifactId>ch8-jsp-git</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>ch8-jsp Maven Webapp</name>
+  <name>ch8-jsp-git Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
   <dependencies>
@@ -19,7 +19,7 @@
   </dependencies>
   
   <build>
-    <finalName>ch8-jsp</finalName>
+    <finalName>ch8-jsp-git</finalName>
 	<plugins>
 		<plugin>
 			<groupId>org.apache.tomcat.maven</groupId>

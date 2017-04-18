@@ -13,9 +13,15 @@ protected void doPost(HttpServletRequest request,
 		String name = request.getParameter("username");
 		request.setAttribute("name", name);
 		
-		Person p = new Person();
-		p.setName("Evan");
+		Person p = new Employee(); 
+		p.setName("Evan");		
 		request.setAttribute("person", p);
+		
+		Employee e = new Employee(); 
+		e.setName("Jelena");
+		e.setEmpID(6523);
+		request.setAttribute("employee", e);
+		
 		
 		RequestDispatcher view = request.getRequestDispatcher("/result.jsp");
 		//RequestDispatcher view = request.getRequestDispatcher("result.jsp");
