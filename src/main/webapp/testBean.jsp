@@ -1,7 +1,8 @@
-<!-- param atribute se koristi da preuzme parametar sa forme -->
+<!-- param atribute se koristi da preuzme parametar sa forme
+ali za name nam ne treba jer smo uskladili imena na formi i u binu -->
 <html><body>
 <jsp:useBean id="emp" type="foo.Person"  class="foo.Employee" scope="page" >
-	<jsp:setProperty name="emp" property="name" param="username" />	
+	<jsp:setProperty name="emp" property="name" />	
 	<jsp:setProperty name="emp" property="empID" param="userID" />	
 </jsp:useBean>
 
